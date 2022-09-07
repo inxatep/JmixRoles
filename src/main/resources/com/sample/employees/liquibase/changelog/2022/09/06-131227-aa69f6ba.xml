@@ -45,4 +45,10 @@
                                  constraintName="FK_EMPLOYEE_ON_DEPARTMENT" referencedColumnNames="ID"
                                  referencedTableName="DEPARTMENT"/>
     </changeSet>
+    <changeSet id="5" author="homework-employees">
+        <addColumn tableName="DEPARTMENT">
+            <column name="INTERNAL_PHONE_NUMBER" type="VARCHAR(255)"/>
+            <column name="NOTES" type="CLOB"/>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>

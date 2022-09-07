@@ -24,6 +24,29 @@ public class Department {
     @NotNull
     private String name;
 
+    @Column(name = "INTERNAL_PHONE_NUMBER")
+    private String internalPhoneNumber;
+
+    @Column(name = "NOTES")
+    @Lob
+    private String notes;
+
+    public String getInternalPhoneNumber() {
+        return internalPhoneNumber;
+    }
+
+    public void setInternalPhoneNumber(String internalPhoneNumber) {
+        this.internalPhoneNumber = internalPhoneNumber;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
     public String getName() {
         return name;
     }

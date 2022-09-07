@@ -30,6 +30,8 @@
         <form id="form" dataContainer="departmentDc">
             <column width="350px">
                 <textField id="nameField" property="name"/>
+                <textField id="internalPhoneNumberField" property="internalPhoneNumber"/>
+                <textArea rows="5" id="notesField" property="notes"/>
             </column>
         </form>
         <hbox id="editActions" spacing="true">

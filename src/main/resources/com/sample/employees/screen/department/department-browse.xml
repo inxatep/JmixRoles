@@ -52,6 +52,8 @@
                     </actions>
                     <columns>
                         <column id="name"/>
+                        <column id="internalPhoneNumber"/>
+                        <column id="notes"/>
                     </columns>
                     <simplePagination/>
                     <buttonsPanel id="buttonsPanel"

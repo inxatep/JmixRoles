@@ -9,14 +9,20 @@
         <insert tableName="DEPARTMENT">
             <column name="ID">b5a20808-9a58-408f-adf6-44450ade363c</column>
             <column name="NAME">IT</column>
+            <column name="INTERNAL_PHONE_NUMBER">155</column>
+            <column name="NOTES">Computers, Network etc</column>
         </insert>
         <insert tableName="DEPARTMENT">
             <column name="ID">09bc31ce-3d2e-4a9d-9d9e-5221100d156b</column>
             <column name="NAME">Finance</column>
+            <column name="INTERNAL_PHONE_NUMBER">810</column>
+            <column name="NOTES">Accounting, Business trips etc</column>
         </insert>
         <insert tableName="DEPARTMENT">
             <column name="ID">e8c8b300-b6ea-4658-8f7e-14a77d0dc6a2</column>
             <column name="NAME">Manufacturing</column>
+            <column name="INTERNAL_PHONE_NUMBER">300</column>
+            <column name="NOTES">24/7/365</column>
         </insert>
     </changeSet>
     <changeSet id="2" author="jmix">
